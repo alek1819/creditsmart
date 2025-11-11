@@ -68,4 +68,14 @@ El sitio debe visualizarse correctamente en **desktop**, **tablet** y **móvil**
    ```bash
    git clone https://github.com/alek1819/creditsmart
 
+   ### 🏠 Página Principal
+![Página Principal](./screenshots/index.png)
+
+### 💰 Simulador de Créditos
+![Simulador de Créditos](./screenshots/simulador.png)
+
+### 📝 Formulario de Solicitud
+![Formulario de Solicitud](./screenshots/solicitar.png)
+
+
 
