@@ -35,16 +35,15 @@ Cada página cumple una función específica dentro del flujo de navegación del
 ├── index.html         # 🏠 Página principal (Catálogo de Créditos)
 ├── simulador.html     # 💰 Simulador de Créditos
 ├── solicitar.html     # 📝 Formulario de Solicitud
-├── styles.css         # 🎨 Estilos generales del sitio y pagina principal (CSS3)
-├── simulador.css      # 🎨 Estilos de la pagina simulador (CSS3)
-├── solicitar.css      # 🎨 Estilos de la pagina solicitar (CSS3)
-├── images/            # 📸 imagenes del sitio
+├── styles.css         # 🎨 Estilos generales del sitio y página principal (CSS3)
+├── simulador.css      # 🎨 Estilos de la página simulador (CSS3)
+├── solicitar.css      # 🎨 Estilos de la página solicitar (CSS3)
+├── images/            # 🖼️ Imágenes del sitio
 ├── screenshots/       # 📸 Capturas de pantalla 
 └── README.md          # 📘 Documentación del proyecto
 
-
-
 ---
+
 
 ## 🖥️ Tecnologías Utilizadas
 
