@@ -30,11 +30,18 @@ Cada página cumple una función específica dentro del flujo de navegación del
 
 ## 🧱 Estructura del Proyecto
 
-├── index.html # Página principal (Catálogo de Créditos)
-├── simulador.html # Página del Simulador de Créditos
-├── solicitar.html # Página del Formulario de Solicitud
-├── styles.css # Estilos generales del sitio (CSS3)
-└── README.md # Documentación del proyecto
+```bash
+📂 sistema-creditos/
+├── index.html         # 🏠 Página principal (Catálogo de Créditos)
+├── simulador.html     # 💰 Simulador de Créditos
+├── solicitar.html     # 📝 Formulario de Solicitud
+├── styles.css         # 🎨 Estilos generales del sitio y pagina principal (CSS3)
+├── simulador.css      # 🎨 Estilos de la pagina simulador (CSS3)
+├── solicitar.css      # 🎨 Estilos de la pagina solicitar (CSS3)
+├── images/            # 📸 imagenes del sitio
+├── screenshots/       # 📸 Capturas de pantalla 
+└── README.md          # 📘 Documentación del proyecto
+
 
 
 ---
