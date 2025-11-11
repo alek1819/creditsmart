@@ -41,6 +41,7 @@ Cada página cumple una función específica dentro del flujo de navegación del
 ├── images/            # 🖼️ Imágenes del sitio
 ├── screenshots/       # 📸 Capturas de pantalla 
 └── README.md          # 📘 Documentación del proyecto
+```
 
 ---
 
