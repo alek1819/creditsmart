@@ -1,190 +1,209 @@
 <!DOCTYPE html>
 <html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>CreditSmart</title>
+    <link rel="stylesheet" href="./css/style.css" />
+    <link rel="icon" type="image/png" href="./images/creditsmart.svg" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
+      integrity="sha512-..."
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+  </head>
 
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>CreditSmart</title>
-  <link rel="stylesheet" href="./css/style.css">
-  <link rel="icon" type="image/png" href="./images/creditsmart.svg">
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
-    integrity="sha512-..." crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <body>
+    <!-- navegacion -->
 
-</head>
+    <nav class="nav">
+      <div class="container">
+        <div class="logo">
+          <img src="./images/creditsmart.svg" alt="CreditSmart Logo" />
+          <span>CreditSmart</span>
+        </div>
 
-<body>
+        <!-- Botón hamburguesa -->
+        <div class="hamburger" id="hamburger">
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
 
-  <!-- navegacion -->
-
-  <nav class="nav">
-    <div class="container">
-      <div class="logo">
-        <img src="./images/creditsmart.svg" alt="CreditSmart Logo" />
-        <span>CreditSmart</span>
+        <!-- Enlaces del menú -->
+        <ul class="nav-links" id="nav-links">
+          <li><a href="index.html">Inicio</a></li>
+          <li><a href="simulador.html">Buscar crédito</a></li>
+          <li><a href="solicitar.html">Solicitar crédito</a></li>
+        </ul>
       </div>
+    </nav>
 
-      <!-- Botón hamburguesa -->
-      <div class="hamburger" id="hamburger">
-        <span></span>
-        <span></span>
-        <span></span>
+    <!-- banner principal -->
+    <header class="hero">
+      <div class="container">
+        <h1>Bienvenido a CreditSmart</h1>
+        <p>
+          Tu solución para encontrar y solicitar créditos de manera fácil y
+          rápida.
+        </p>
+        <a href="solicitar.html" class="btn">Comienza ahora</a>
       </div>
+    </header>
 
-      <!-- Enlaces del menú -->
-      <ul class="nav-links" id="nav-links">
-        <li><a href="index.html">Inicio</a></li>
-        <li><a href="simulador.html">Buscar crédito</a></li>
-        <li><a href="solicitar.html">Solicitar crédito</a></li>
-      </ul>
-    </div>
-  </nav>
+    <!-- productos crediticios -->
+    <main class="container">
+      <section class="credits-section">
+        <h3>Productos Crediticios</h3>
 
-
-  <!-- banner principal -->
-  <header class="hero">
-    <div class="container">
-      <h1>Bienvenido a CreditSmart</h1>
-      <p>Tu solución para encontrar y solicitar créditos de manera fácil y rápida.</p>
-      <a href="solicitar.html" class="btn">Comienza ahora</a>
-    </div>
-  </header>
-
-  <!-- productos crediticios -->
-  <main class="container">
-    <section class="credits-section">
-      <h3>Productos Crediticios</h3>
-
-      <!-- ===== Tarjeta de Crédito #1 ===== -->
-      <div class="credit-card">
-        <!-- Encabezado de la tarjeta -->
-        <div class="card-header">
-          <span class="icon"><i class="fas fa-money-bill-wave"></i></span>
-          <h3>Crédito Libre Inversión</h3>
+        <div class="credit-card">
+          <div class="card-header">
+            <span class="icon"><i class="fas fa-book"></i></span>
+            <h3>Crédito Educativo</h3>
+          </div>
+          <p>
+            Financia tus estudios universitarios, diplomados o cursos
+            especializados.
+          </p>
+          <div class="details">
+            <div class="detail-item">
+              <span class="label">Tasa de interés:</span>
+              <span class="value highlight">1.2% mensual</span>
+            </div>
+            <div class="detail-item">
+              <span class="label">Monto:</span>
+              <span class="value">$500K - $50M</span>
+            </div>
+            <div class="detail-item">
+              <span class="label">Plazo:</span>
+              <span class="value">12 - 72 meses</span>
+            </div>
+          </div>
+          <button class="btn-primary">Solicitar Ahora</button>
         </div>
-        <!-- Descripción del crédito -->
-        <p>Dinero rápido para lo que necesites sin tener que justificar su uso</p>
-        <!-- Detalles del crédito -->
-        <div class="details">
-          <!-- Tasa de interés -->
-          <div class="detail-item">
-            <span class="label">Tasa de interés:</span>
-            <span class="value highlight">1.8% mensual</span>
-          </div>
-          <!-- Monto disponible -->
-          <div class="detail-item">
-            <span class="label">Monto:</span>
-            <span class="value">$1M - $30M</span>
-          </div>
-          <!-- Plazo del crédito -->
-          <div class="detail-item">
-            <span class="label">Plazo:</span>
-            <span class="value">Hasta 60 meses</span>
-          </div>
-        </div>
-        <!-- Botón de acción -->
-        <button class="btn-primary">Solicitar Ahora</button>
-      </div>
 
-      <!-- ===== Tarjeta de Crédito #2 ===== -->
-      <div class="credit-card">
-        <div class="card-header">
-          <span class="icon"><i class="fas fa-car"></i></span>
-          <h3>Crédito Automotriz</h3>
+        <div class="credit-card">
+          <div class="card-header">
+            <span class="icon"><i class="fas fa-plane"></i></span>
+            <h3>Crédito para Viajes</h3>
+          </div>
+          <p>Haz realidad ese viaje soñado sin afectar tu bolsillo de golpe.</p>
+          <div class="details">
+            <div class="detail-item">
+              <span class="label">Tasa de interés:</span>
+              <span class="value highlight">1.9% mensual</span>
+            </div>
+            <div class="detail-item">
+              <span class="label">Monto:</span>
+              <span class="value">$1M - $40M</span>
+            </div>
+            <div class="detail-item">
+              <span class="label">Plazo:</span>
+              <span class="value">6 - 48 meses</span>
+            </div>
+          </div>
+          <button class="btn-primary">Solicitar Ahora</button>
         </div>
-        <p>Financia la compra de tu vehículo nuevo o usado con condiciones preferenciales.</p>
-        <div class="details">
-          <div class="detail-item">
-            <span class="label">Tasa de interés:</span>
-            <span class="value highlight">2.5% mensual</span>
-          </div>
-          <div class="detail-item">
-            <span class="label">Monto:</span>
-            <span class="value">$500K - $20M</span>
-          </div>
-          <div class="detail-item">
-            <span class="label">Plazo:</span>
-            <span class="value">12 - 72 meses</span>
-          </div>
-        </div>
-        <button class="btn-primary">Solicitar Ahora</button>
-      </div>
 
-      <!-- ===== Tarjeta de Crédito #3 ===== -->
-      <div class="credit-card">
-        <div class="card-header">
-          <span class="icon"><i class="fas fa-home"></i></span>
-          <h3>Crédito Hipotecario</h3>
+        <div class="credit-card">
+          <div class="card-header">
+            <span class="icon"><i class="fas fa-briefcase"></i></span>
+            <h3>Crédito para Negocios</h3>
+          </div>
+          <p>Impulsa tu emprendimiento o pyme con capital inmediato.</p>
+          <div class="details">
+            <div class="detail-item">
+              <span class="label">Tasa de interés:</span>
+              <span class="value highlight">2.0% mensual</span>
+            </div>
+            <div class="detail-item">
+              <span class="label">Monto:</span>
+              <span class="value">$2M - $100M</span>
+            </div>
+            <div class="detail-item">
+              <span class="label">Plazo:</span>
+              <span class="value">12 - 72 meses</span>
+            </div>
+          </div>
+          <button class="btn-primary">Solicitar Ahora</button>
         </div>
-        <p>Obtén financiamiento para la compra, construcción o remodelación de tu vivienda.</p>
-        <div class="details">
-          <div class="detail-item">
-            <span class="label">Tasa de interés:</span>
-            <span class="value highlight">3.2% mensual</span>
-          </div>
-          <div class="detail-item">
-            <span class="label">Monto:</span>
-            <span class="value">$50M - $500M</span>
-          </div>
-          <div class="detail-item">
-            <span class="label">Plazo:</span>
-            <span class="value">Hasta 240 meses</span>
-          </div>
-        </div>
-        <button class="btn-primary">Solicitar Ahora</button>
-      </div>
 
-      <!-- ===== Tarjeta de Crédito #4 ===== -->
-      <div class="credit-card">
-        <div class="card-header">
-          <span class="icon"><i class="fas fa-car"></i></span>
-          <h3>Crédito Automotriz</h3>
+        <div class="credit-card">
+          <div class="card-header">
+            <span class="icon"><i class="fas fa-paint-roller"></i></span>
+            <h3>Crédito para Remodelación</h3>
+          </div>
+          <p>Renueva tu hogar con cuotas cómodas y aprobación rápida.</p>
+          <div class="details">
+            <div class="detail-item">
+              <span class="label">Tasa de interés:</span>
+              <span class="value highlight">1.7% mensual</span>
+            </div>
+            <div class="detail-item">
+              <span class="label">Monto:</span>
+              <span class="value">$3M - $80M</span>
+            </div>
+            <div class="detail-item">
+              <span class="label">Plazo:</span>
+              <span class="value">12 - 60 meses</span>
+            </div>
+          </div>
+          <button class="btn-primary">Solicitar Ahora</button>
         </div>
-        <p>Financia la compra de tu vehículo nuevo o usado con condiciones preferenciales.</p>
-        <div class="details">
-          <div class="detail-item">
-            <span class="label">Tasa de interés:</span>
-            <span class="value highlight">2.5% mensual</span>
+
+        <div class="credit-card">
+          <div class="card-header">
+            <span class="icon"><i class="fas fa-credit-card"></i></span>
+            <h3>Tarjeta de Crédito Digital</h3>
           </div>
-          <div class="detail-item">
-            <span class="label">Monto:</span>
-            <span class="value">$500K - $20M</span>
+          <p>Compras online seguras con cupo flexible y sin cuota de manejo.</p>
+          <div class="details">
+            <div class="detail-item">
+              <span class="label">Tasa de interés:</span>
+              <span class="value highlight">2.1% mensual</span>
+            </div>
+            <div class="detail-item">
+              <span class="label">Monto:</span>
+              <span class="value">$500K - $15M</span>
+            </div>
+            <div class="detail-item">
+              <span class="label">Plazo:</span>
+              <span class="value">Revolvente</span>
+            </div>
           </div>
-          <div class="detail-item">
-            <span class="label">Plazo:</span>
-            <span class="value">12 - 72 meses</span>
-          </div>
+          <button class="btn-primary">Solicitar Ahora</button>
         </div>
-        <button class="btn-primary">Solicitar Ahora</button>
-      </div>
 
-      <!-- ===== Tarjeta de Crédito #5 ===== -->
-      <div class="credit-card">
-        <div class="card-header">
-          <span class="icon"><i class="fas fa-car"></i></span>
-          <h3>Crédito Automotriz</h3>
+        <div class="credit-card">
+          <div class="card-header">
+            <span class="icon"><i class="fas fa-laptop"></i></span>
+            <h3>Crédito para Tecnología</h3>
+          </div>
+          <p>
+            Actualiza tu compu, celular o equipo de trabajo sin quedarte en la
+            ruina.
+          </p>
+          <div class="details">
+            <div class="detail-item">
+              <span class="label">Tasa de interés:</span>
+              <span class="value highlight">1.5% mensual</span>
+            </div>
+            <div class="detail-item">
+              <span class="label">Monto:</span>
+              <span class="value">$800K - $25M</span>
+            </div>
+            <div class="detail-item">
+              <span class="label">Plazo:</span>
+              <span class="value">6 - 48 meses</span>
+            </div>
+          </div>
+          <button class="btn-primary">Solicitar Ahora</button>
         </div>
-        <p>Financia la compra de tu vehículo nuevo o usado con condiciones preferenciales.</p>
-        <div class="details">
-          <div class="detail-item">
-            <span class="label">Tasa de interés:</span>
-            <span class="value highlight">2.5% mensual</span>
-          </div>
-          <div class="detail-item">
-            <span class="label">Monto:</span>
-            <span class="value">$500K - $20M</span>
-          </div>
-          <div class="detail-item">
-            <span class="label">Plazo:</span>
-            <span class="value">12 - 72 meses</span>
-          </div>
-        </div>
-        <button class="btn-primary">Solicitar Ahora</button>
-      </div>
+      </section>
+    </main>
 
-    </section>
-  </main>
-
-  <script src="./js/scripts.js"></script>
-</body>
-
+    <script src="./js/scripts.js"></script>
+  </body>
 </html>
